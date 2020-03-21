@@ -1,0 +1,141 @@
+////////////////////////////////////////////////////////////  HTML   /////////////////////////////////////////////////////////////////// 
+<header>
+		<div class="menu_bar"> <!--Este menú solo se muestra en la versión movil-->
+            <a href="/" class="bt-menu"><img alt="Logo" src="static/images/logo.png" width="120"></a>
+            <img class="menu_down" alt="Menu" src="menu.png" width="35">
+		</div>                  <!--Este menú solo se muestra en la versión movil-->
+		<nav>
+            <a href="/" ><img alt="Logo" src="static/images/logo.png" width="120">  </a>     <!--Esta imagen solo se muestra en la versión escritorio-->
+			<ul>
+                <li><a href="/"><span class="icon-earth"></span>Inicio</a></li>
+				<li class="submenu">
+					<a href="#"><span class="icon-rocket"></span>Cuál Comprar<span class="caret icon-arrow-down6"></span></a>
+					<ul class="children">
+						<li><a href="/form-basic-smartphone">Smartphone-Basico<span class="icon-dot"></span></a></li>
+						<li><a href="/form-inter-smartphone">Smartphone-Técnico <span class="icon-dot"></span></a></li>
+                        <li><a href="/form-oper-movil-peru">Operador Movil <span class="icon-dot"></span></a></li>
+                        <li><a href="/form-oper-fijo-peru">Operador Fijo <span class="icon-dot"></span></a></li>
+					</ul>
+				</li>
+                <li><a href="/form-low-prices"><span class="icon-earth"></span>Dónde Comprar</a></li>
+            </ul>
+            
+		</nav>
+	</header>
+////////////////////////////////////////////////////////////  HTML   /////////////////////////////////////////////////////////////////// 
+////////////////////////////////////////////////////////////  CSS   ///////////////////////////////////////////////////////////////////
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.menu_bar {
+	display:none;
+	background:#03989e;
+}
+header {
+	width: 100%;
+}
+header nav {
+	background:#03989e;
+	z-index:1000;
+	max-width: 100%;
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+}
+header nav a {
+	display:block;
+	margin:auto;
+	margin-left: 5px;
+}
+header nav a:hover{
+	transform: scale(1.1);
+}
+header nav ul {
+	list-style:none;
+	margin-bottom: 0;
+}
+header nav ul li {
+	display:inline-block;
+	position: relative;
+	max-height: 100%;
+}
+header nav ul li:hover {
+	background:#03989e;
+	border-radius: 8px;
+	
+}
+header nav ul li a {
+	color: white;
+	display:block;
+	text-decoration:none;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 22px;
+}
+header nav ul li a:hover{
+	color: white;
+}
+header nav ul li a span {
+	margin-right:10px;
+}
+header nav ul li:hover .children {
+	display:block;
+}
+header nav ul li .children {
+	display: none;
+	background:#03989e;
+	position: absolute;
+	width: 150%;
+	z-index:1000;
+}
+header nav ul li .children li {
+	display:block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+header nav ul li .children li a {
+	display: block;
+}
+header nav ul li .children li a span {
+	float: right;
+	position: relative;
+	top:3px;
+	margin-right:0;
+	margin-left:10px;
+}
+header nav ul li .caret {
+	position: relative;
+	top:3px;
+	margin-left:10px;
+	margin-right:0px;
+}
+////////////////////////////////////////////////////////////  CSS   ///////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////  JS   ///////////////////////////////////////////////////////////////////
+$(document).ready(main);
+ 
+var contador = 1;
+ 
+function main () {
+	$('.menu_down').click(function(){
+		if (contador == 1) {
+			$('nav').animate({
+				left: '0'
+			});
+			contador = 0;
+		} else {
+			contador = 1;
+			$('nav').animate({
+				left: '-100%'
+			});
+		}
+	});
+	// Mostramos y ocultamos submenus
+	$('.submenu').click(function(){
+		$(this).children('.children').slideToggle();
+	});
+}
+////////////////////////////////////////////////////////////  JS   ///////////////////////////////////////////////////////////////////

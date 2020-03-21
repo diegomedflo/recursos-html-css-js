@@ -1,0 +1,150 @@
+//////////////////////////////////////////////////////////////  H T M L //////////////////////////////////////////////////////////////
+<!-- Pregunta 1 Región o Ciudad-->
+				<div class="pregunta">
+					<h3><li class="container">*Ciudad<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" title="Selecciona la ciudad donde buscas una playa de estacionamiento">?</button></li></h3>
+					<select class="down-list" name="ciudad" id="down-list">
+						<option disabled selected>Selecciona una opción</option>
+		                <option value="Abancay">Abancay</option>
+		                <option value="Ayacucho">Ayacucho</option>
+		                <option value="Arequipa">Arequipa</option>
+		                <option value="Barranca">Barranca</option>
+		                <option value="Cajamarca">Cajamarca</option>
+		                <option value="Callao">Callao</option>
+		                <option value="Camaná">Camaná</option>
+		                <option value="CerrodePasco">Cerro de Pasco</option>
+		                <option value="Cusco">Cusco</option>
+		                <option value="Chiclayo">Chiclayo</option>
+		                <option value="Chimbote">Chimbote</option>
+		                <option value="ChinchaAlta">Chincha Alta</option>
+		                <option value="Huacho">Huacho</option>
+		                <option value="Huaral">Huaral</option>
+		                <option value="Huaraz">Huaraz</option>
+		                <option value="Huánuco">Huánuco</option>
+		                <option value="Huancayo">Huancayo</option>
+		                <option value="Ica">Ica</option>
+		                <option value="Ilo">Ilo</option>
+		                <option value="Iquitos">Iquitos</option>
+		                <option value="Jaen">Jaen</option>
+		                <option value="Juliaca">Juliaca</option>
+		                <option value="Lambayeque">Lambayeque</option>
+		                <option value="Lima">Lima</option>
+		                <option value="Moquegua">Moquegua</option>
+		                <option value="Moyobamba">Moyobamba</option>
+		                <option value="Paita">Paita</option>
+		                <option value="Piura">Piura</option>
+		                <option value="Pisco">Pisco</option>
+		                <option value="Puno">Puno</option>
+		                <option value="PuertoMaldonado">Puerto Maldonado</option>
+		                <option value="Pucallpa">Pucallpa</option>
+		                <option value="Sullana">Sullana</option>
+		                <option value="Tacna">Tacna</option>
+		                <option value="Talara">Talara</option>
+		                <option value="Tarapoto">Tarapoto</option>
+		                <option value="Tumbes">Tumbes</option>
+		                <option value="Trujillo">Trujillo</option>
+		                <option value="Yurimaguas">Yurimaguas</option>
+					</select>
+				</div>
+
+								<!--                          Aquí inicia las preguntas de distritos                          -->
+
+				<!-- Subpregunta 2 Lima-->
+				<div class="pregunta hiden Lima">
+					<h3><li class="container">Distrito<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" title="Elejiste Lima, ahora selecciona el distrito en donde quieres buscar una playa de estacionamiento"> ? </button></li></h3>
+					<select class="down-list-distrito" name="distrito">
+						<option disabled selected>Selecciona una opción</option>
+						<option value="Lima">Lima</option>
+						<option value="Ancón">Ancón</option>
+						<option value="Ate">Ate</option>
+						<option value="Barranco">Barranco</option>
+						<option value="Breña">Breña</option>
+						<option value="Carabayllo">Carabayllo</option>
+						<option value="Chaclacayo">Chaclacayo</option>
+						<option value="Chorrillos">Chorrillos</option>
+						<option value="Cieneguilla">Cieneguilla</option>
+						<option value="Comas">Comas</option>
+						<option value="El Agustino">El Agustino</option>
+						<option value="Independencia">Independencia</option>
+						<option value="Jesús María">Jesús María</option>
+						<option value="La Molina">La Molina</option>
+						<option value="La Victoria">La Victoria</option>
+						<option value="Lince">Lince</option>
+						<option value="Los Olivos">Los Olivos</option>
+						<option value="Lurigancho-Chosica">Lurigancho-Chosica</option>
+						<option value="Lurin">Lurin</option>
+						<option value="Magdalena del Mar">Magdalena del Mar</option>
+						<option value="Miraflores">Miraflores</option>
+						<option value="Pueblo Libre">Pueblo Libre</option>
+						<option value="Pachacámac">Pachacámac</option>
+						<option value="Pucusana">Pucusana</option>
+						<option value="Puente Piedra">Puente Piedra</option>
+						<option value="Punta Hermosa">Punta Hermosa</option>
+						<option value="Punta Negra">Punta Negra</option>
+						<option value="Rímac">Rímac</option>
+						<option value="San Bartolo">San Bartolo</option>
+						<option value="San Borja">San Borja</option>
+						<option value="San Isidro">San Isidro</option>
+						<option value="San Juan de Lurigancho">San Juan de Lurigancho</option>
+						<option value="San Juan de Miraflores">San Juan de Miraflores</option>
+						<option value="San Luis">San Luis</option>
+						<option value="San Martín de Porres">San Martín de Porres</option>
+						<option value="San Miguel">San Miguel</option>
+						<option value="Santa Anita">Santa Anita</option>
+						<option value="Santa María del Mar">Santa María del Mar</option>
+						<option value="Santa Rosa">Santa Rosa</option>
+						<option value="Santiago de Surco">Santiago de Surco</option>
+						<option value="Surquillo">Surquillo</option>
+						<option value="Villa El Salvador">Villa El Salvador</option>
+						<option value="Villa María del Triunfo">Villa María del Triunfo</option>
+					</select>
+				</div>
+				<!-- Subpregunta 2 Arequipa-->
+				<div class="pregunta hiden Arequipa">
+					<h3><li class="container">Distrito<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" title="Elejiste Arequipa, ahora selecciona el distrito en donde quieres buscar una playa de estacionamiento"> ? </button></li></h3>
+					<select class="down-list-distrito" name="distrito">
+						<option disabled selected>Selecciona una opción</option>
+						<option value="Alto Selva Alegre">Alto Selva Alegre</option>
+						<option value="Arequipa">Arequipa</option>
+						<option value="Cayma">Cayma</option>
+						<option value="Cerro Colorado">Cerro Colorado</option>
+						<option value="Characato">Characato</option>
+						<option value="Chiguata">Chiguata</option>
+						<option value="Jacobo Hunter">Jacobo Hunter</option>
+						<option value="José Luis Bustamante y Rivero">José Luis Bustamante y Rivero</option>
+						<option value="La Joya">La Joya</option>
+						<option value="Mariano Melgar">Mariano Melgar</option>
+						<option value="Miraflores">Miraflores</option>
+						<option value="Mollebaya">Mollebaya</option>
+						<option value="Paucarpata">Paucarpata</option>
+						<option value="Pocsi">Pocsi</option>
+						<option value="Polobaya">Polobaya</option>
+						<option value="Quequeña">Quequeña</option>
+						<option value="Sabandía">Sabandía</option>
+						<option value="Sachaca">Sachaca</option>
+						<option value="San Juan de Siguas">San Juan de Siguas</option>
+						<option value="San Juan de Tarucani">San Juan de Tarucani</option>
+						<option value="Santa Isabel de Siguas">Santa Isabel de Siguas</option>
+						<option value="Santa Rita de Siguas">Santa Rita de Siguas</option>
+						<option value="Socabaya">Socabaya</option>
+						<option value="Tiabaya">Tiabaya</option>
+						<option value="Uchumayo">Uchumayo</option>
+						<option value="Vitor">Vitor</option>
+						<option value="Yanahuara">Yanahuara</option>
+						<option value="Yarabamba">Yarabamba</option>
+						<option value="Yura">Yura</option>
+					</select>
+				</div>
+//////////////////////////////////////////////////////////////  H T M L //////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////  C S S   //////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////  C S S   //////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////  J S     //////////////////////////////////////////////////////////////
+//MUESTRA PREGUNTAS DE ACUERDO A SELECT
+$(document).ready(function() {
+    $('.down-list').on('change',function(){
+        var SelectValue='.'+$(this).val();
+        $('.hiden').hide();
+        $(SelectValue).toggle();
+    });
+});
+//////////////////////////////////////////////////////////////  J S     //////////////////////////////////////////////////////////////

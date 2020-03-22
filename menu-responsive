@@ -1,27 +1,27 @@
 ////////////////////////////////////////////////////////////  HTML   /////////////////////////////////////////////////////////////////// 
 <header>
-		<div class="menu_bar"> <!--Este menú solo se muestra en la versión movil-->
-            <a href="/" class="bt-menu"><img alt="Logo" src="static/images/logo.png" width="120"></a>
-            <img class="menu_down" alt="Menu" src="menu.png" width="35">
-		</div>                  <!--Este menú solo se muestra en la versión movil-->
-		<nav>
-            <a href="/" ><img alt="Logo" src="static/images/logo.png" width="120">  </a>     <!--Esta imagen solo se muestra en la versión escritorio-->
-			<ul>
-                <li><a href="/"><span class="icon-earth"></span>Inicio</a></li>
-				<li class="submenu">
-					<a href="#"><span class="icon-rocket"></span>Cuál Comprar<span class="caret icon-arrow-down6"></span></a>
-					<ul class="children">
-						<li><a href="/form-basic-smartphone">Smartphone-Basico<span class="icon-dot"></span></a></li>
-						<li><a href="/form-inter-smartphone">Smartphone-Técnico <span class="icon-dot"></span></a></li>
-                        <li><a href="/form-oper-movil-peru">Operador Movil <span class="icon-dot"></span></a></li>
-                        <li><a href="/form-oper-fijo-peru">Operador Fijo <span class="icon-dot"></span></a></li>
-					</ul>
-				</li>
-                <li><a href="/form-low-prices"><span class="icon-earth"></span>Dónde Comprar</a></li>
-            </ul>
-            
-		</nav>
-	</header>
+	<div class="menu_bar"> <!--Este menú solo se muestra en la versión movil-->
+    <a href="/" class="bt-menu"><img alt="Logo" src="static/images/logo.png" width="120"></a>
+    <img class="menu_down" alt="Menu" src="menu.png" width="35">
+	</div>                  <!--Este menú solo se muestra en la versión movil-->
+	<nav>
+    <a href="/" ><img alt="Logo" src="static/images/logo.png" width="120">  </a>     <!--Esta imagen solo se muestra en la versión escritorio-->
+		<ul>
+	<li><a href="/"><span class="icon-earth"></span>Inicio</a></li>
+			<li class="submenu">
+				<a href="#"><span class="icon-rocket"></span>Cuál Comprar<span class="caret icon-arrow-down6"></span></a>
+				<ul class="children">
+					<li><a href="/form-basic-smartphone">Smartphone-Basico<span class="icon-dot"></span></a></li>
+					<li><a href="/form-inter-smartphone">Smartphone-Técnico <span class="icon-dot"></span></a></li>
+		<li><a href="/form-oper-movil-peru">Operador Movil <span class="icon-dot"></span></a></li>
+		<li><a href="/form-oper-fijo-peru">Operador Fijo <span class="icon-dot"></span></a></li>
+				</ul>
+			</li>
+	<li><a href="/form-low-prices"><span class="icon-earth"></span>Dónde Comprar</a></li>
+    </ul>
+
+	</nav>
+</header>
 ////////////////////////////////////////////////////////////  HTML   /////////////////////////////////////////////////////////////////// 
 ////////////////////////////////////////////////////////////  CSS   ///////////////////////////////////////////////////////////////////
 * {
